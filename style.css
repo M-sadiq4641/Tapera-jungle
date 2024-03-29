@@ -92,12 +92,12 @@
 
 @font-face {
   font-family: stolzl;
-  src: url(/public/fonts/stolzl_medium.otf);
+  src: url(/fonts/stolzl_medium.otf);
 }
 
 @font-face {
   font-family: stolzl-md;
-  src: url(/public/fonts/stolzl_medium.otf);
+  src: url(/fonts/stolzl_medium.otf);
 }
 
 h2 {
@@ -135,16 +135,10 @@ p {
   font-family: "Montserrat", sans-serif !important;
 }
 
-button {
-  p {
-    font-family: "Montserrat", sans-serif !important;
-  }
-}
-
 /* navbar section  */
 
 .navabr-wrapper {
-  background-image: url(/public/gallery/hero-bg.png);
+  background-image: url(/gallery/hero-bg.png);
   min-height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -173,4 +167,16 @@ button {
 button {
   border-radius: 30px !important;
   background-color: #5ea624 !important;
+
+  p {
+    font-family: "Montserrat", sans-serif !important;
+  }
+}
+
+.project-wrapepr {
+  margin-block: 5rem;
+
+  @media (max-width: 576px) {
+    margin-block: 3rem;
+  }
 }
