@@ -100,6 +100,10 @@
   src: url(/fonts/stolzl_medium.otf);
 }
 
+button:hover {
+  color: black !important;
+}
+
 h2 {
   font-family: stolzl-md;
 }
@@ -208,7 +212,7 @@ button {
 /* amazone section */
 
 .amazone-wrapper {
-  background-image: url(/public/gallery/amazone-image.png);
+  background-image: url(/gallery/amazone-image.png);
   min-height: 450px;
   background-position: center;
   background-repeat: no-repeat;
@@ -250,11 +254,11 @@ button {
 
 .join-wrapper {
   min-height: 380px;
-  background-image: url(/public/gallery/join-bg-image.png);
+  background-image: url(/gallery/join-bg-image.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-block: 5rem;
+  margin-block: 1rem;
 }
 .join-main {
   padding-top: 3rem;
@@ -287,3 +291,16 @@ button {
   color: #eaeef333 !important;
 }
 /* opensea section */
+
+/* different section  */
+
+.opensea-container {
+  background-image: url(/gallery/bg-tree.png);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.footer-p {
+  border-top: 1px solid #5ea624;
+  color: #4d4d4d;
+}
